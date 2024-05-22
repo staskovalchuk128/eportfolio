@@ -1,7 +1,7 @@
 body {
   background: #111;
   color: #fff;
-  background-image: url('bg.png');
+  background-image: url('../images/bg.png');
 }
 
 .lnk_page_item{
