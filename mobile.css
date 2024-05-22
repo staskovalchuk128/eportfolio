@@ -1,0 +1,83 @@
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .page_section, body{
+        width: 100%;
+    }
+    .content{
+        width: 95%;
+    }
+    .logo, .header_top_menu{
+        float: none;
+    }
+    .main_page_img{
+        width: 60%;
+        margin: auto;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .mini_title, .mp_porfolio_item_link, .mp_porfolio_item_title{
+        text-align: center;
+    }
+    .mp_porfolio_item_link a{
+        font-size: 1.3em;
+    }
+    .mini_title .__text::after{
+        display: none;
+    }
+    .mp_porfolio_item, .porfolio_item{
+        margin: auto;
+    }
+    .lnk_page_item{
+        display: block;
+        padding-top: 10px;
+        margin-left: 0px!important;
+    }
+    .lnk_page_item + .lnk_page_item {
+        margin-top: 40px;
+    }
+    .left_grid, .right_grid {
+        float: none;
+        width: 100%;
+    }
+    .right_grid{
+        border-top: 2px solid #f36c52;
+    }
+    .mp_porfolio_item_img{
+        float: none;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px
+    }
+    .mp_porfolio_item{
+        padding-bottom: 30px;
+    }
+    .mp_porfolio_item + .mp_porfolio_item{
+        margin-top: 30px;
+    }
+    .mp_xp_desc{
+        margin-bottom: 20px;
+    }
+    .footer{
+        margin-top: 0px;
+        padding: 15px 0px;
+    }
+    .footer div{
+        float: none;
+    }
+    .footer .f_m{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 360px) {
+
+
+
+}
